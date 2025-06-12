@@ -129,6 +129,24 @@ button:hover {
   color: #1c1c1c;
 }
 
+
+.plata {
+  background-image: url('/fondos/pago.jpg'); /* Reemplazá con el nombre real del archivo */
+  background-repeat: no-repeat;
+  background-size: cover; /* O podés usar 'contain' si querés que no se recorte */
+  background-position: center;
+
+  padding: 40px;
+  border-radius: 20px;
+  color: white; /* Asegura que el texto sea visible si la imagen es oscura */
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: auto;
+}
+
+
+
 /* Pagos */
 #pagos ul {
   list-style: none;
