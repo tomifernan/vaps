@@ -131,18 +131,26 @@ button:hover {
 
 
 .plata {
-  background-image: url('/fondos/pago.jpg'); /* Reemplazá con el nombre real del archivo */
+  background-image: url('/fondos/pago.jpg');
   background-repeat: no-repeat;
-  background-size: cover; /* O podés usar 'contain' si querés que no se recorte */
+  background-size: cover;
   background-position: center;
-
-  padding: 40px;
+  padding: 30px 20px; /* achicado */
   border-radius: 20px;
-  color: white; /* Asegura que el texto sea visible si la imagen es oscura */
+  color: rgb(255, 255, 255);
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  max-width: 800px;
+  max-width: 700px; /* más angosto */
   margin: auto;
+}
+
+.plata h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.plata h3 {
+  font-size: 1.2rem;
 }
 
 
@@ -740,6 +748,7 @@ h1 {
 }
 
 
+
 /* Animaciones mejoradas */
 @keyframes slideInRight {
   from {
@@ -886,4 +895,52 @@ h1 {
 
 .navbar nav::-webkit-scrollbar-thumb:hover {
   background: #005fa3;
+}
+
+/* Para pantallas grandes (computadoras) */
+@media screen and (min-width: 1024px) {
+  .plata {
+    padding: 30px;
+    max-width: 600px;
+  }
+
+  .plata h1 {
+    font-size: 1.6rem;
+  }
+
+  .plata h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Para tablets */
+@media screen and (max-width: 1023px) and (min-width: 600px) {
+  .plata {
+    padding: 25px;
+    max-width: 90%;
+  }
+
+  .plata h1 {
+    font-size: 1.5rem;
+  }
+
+  .plata h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Para celulares */
+@media screen and (max-width: 599px) {
+  .plata {
+    padding: 20px 15px;
+    max-width: 90%;
+  }
+
+  .plata h1 {
+    font-size: 1.3rem;
+  }
+
+  .plata h3 {
+    font-size: 0.95rem;
+  }
 }
