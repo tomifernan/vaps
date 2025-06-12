@@ -507,12 +507,18 @@ body.menu-abierto {
 }
 
 
-.logo {
+ /* .logo {
   width: 300px;
   height: auto;
   display: block;
-  margin: 0 auto 20px auto; /* Centrado arriba con espacio abajo */
+  margin: 0 auto 20px auto;  Centrado arriba con espacio abajo
   animation: logoFade 1.2s ease-in-out;
+} */
+
+.logo {
+  width: 200px;
+  margin: 10px auto 5px auto;
+  display: block;
 }
 
 @keyframes logoFade {
@@ -942,5 +948,31 @@ h1 {
 
   .plata h3 {
     font-size: 0.95rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 140px;
+    margin: 5px auto 0 auto;
+  }
+
+  .seccion {
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+}
+
+
+@media screen and (max-width: 599px) {
+  .logo {
+    width: 140px;
+    margin: 5px auto 0 auto;
+  }
+
+  .seccion {
+    margin-top: 10px;
+    padding-top: 5px;
   }
 }
