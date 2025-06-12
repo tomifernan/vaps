@@ -1,0 +1,323 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vaps Pilar</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+
+    </head>
+<header>
+ <img src="/vapers/ChatGPT Image 11 jun 2025, 22_08_34.png" alt="Logo de Vaps" class="logo"> 
+</header>
+    <body>
+    <div class="navbar">
+        <section id ="inicio">
+        </section>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#producto">Vapers</a>
+            <a href="promo">Promos</a>
+            <a href="#entrega">Medios de entrega</a>
+            <a href="#somos">Quienes soy?</a>
+            <a href="#pagos">Medios de pago</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
+
+<h2>Menu de busqueda</h2>
+     <div class="buscador">
+     <button onclick="reiniciarBusqueda()" class="reiniciar-btn"><i class="fas fa-sync-alt"></i></button>
+  <input type="text" id="busqueda" placeholder="Buscar productos...">
+  <button style="color: black;" onclick="buscarProductos()"><i class="fas fa-search"></i></button>
+</div>
+
+    <section id="producto">
+    <h2>Vapers</h2>
+    <div class="producto">
+        <img src="/vapers/summer splash.jpg" alt="">
+        <h3>Elfbar ice king 40k<br>
+            sabor : summer splash 🍍🥭🌴
+        </h3>
+        <p>$26.000</p>
+    <button class="agregar" data-nombre="Elfbar ice king 40k summer splash" data-precio="26000" >Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <img src="/vapers/sour lush gummys.jpg" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : sour lush gummys 🍭🍬👀</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k sour lush gummys" data-precio="26000" >Agregar al carrito</button>
+    </div>
+    
+      <div class="producto">
+        <img src="/vapers/cherry fuse.png" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : cherry fuse  🍒🧊</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k cherry fuse" data-precio="26000" >Agregar al carrito</button>
+    </div>
+      <div class="producto">
+        <img src="/vapers/raspberry orange.webp" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : raspberry Orange 🍓🍊</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k raspberry orange" data-precio="26000" >Agregar al carrito</button>
+    </div>
+     <div class="producto">
+        <img src="/vapers/mango magic.jpg" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : mango Magic 🥭🌴✨</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k mango magic" data-precio="26000" >Agregar al carrito</button>
+    </div>
+     <div class="producto">
+        <img src="/vapers/cherry strazz.webp" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : Cherry strazz 🍒🍓</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k cherry strazz" data-precio="26000" >Agregar al carrito</button>
+    </div>
+         <div class="producto">
+        <img src="/vapers/dragon fruit.jpg" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : sour strawberry dragónfruit 🍓🐉</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k Sour strawberry dragonfruit" data-precio="26000" >Agregar al carrito</button>
+    </div>
+        <div class="producto">
+        <img src="/vapers/watermelon ice.webp" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : watermelon ice 🍉🧊</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k Watermelon ice" data-precio="26000" >Agregar al carrito</button>
+    </div>
+        <div class="producto">
+        <img src="/vapers/scary berry.png" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : scary berry 🍓🧊</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k scary berry" data-precio="26000" >Agregar al carrito</button>
+    </div>
+        <div class="producto">
+        <img src="/vapers/grape ice.png" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : grape ice 🍇🧊</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k grape ice" data-precio="26000" >Agregar al carrito</button>
+    </div>
+         <div class="producto">
+        <img src="/vapers/blue razz ice.png" alt="">
+        <h3>Elfbar ice king 40k <br>
+        Sabor : blue raze ice ​🧊​🧊</h3>
+        <p>$26.000</p>
+        <button class="agregar" data-nombre="Elfbar ice king 40k Blue razz ice" data-precio="26000" >Agregar al carrito</button>
+    </div>
+    </section>
+
+    <section id ="promos">
+        <h1 style="color: #003366;">Promo</h1>
+        <p style="color: #003366;">Llevando 2 vapers a $48.000 ($24.000 c/u)</p>
+        <div class="producto">
+    <img src="/vapers/elfbar.jpg" alt="">
+    <h3>Vapers Elfbar ice king 40k</h3>
+    <p>$48.000</p>
+  <button class="seleccionar-sabor-btn">Seleccionar sabor</button>
+ <div class="lista-sabores oculto">
+        <select class="select-sabor">
+            <option value="">Elegí un sabor</option>
+            <option value="summer splash y summer splash">summer splash 🍍🥭🌴 y summer splash 🍍🥭🌴</option>
+            <option value="summer splash y sour lush gummys">summer splash 🍍🥭🌴 y sour lush gummys 🍭🍬👀</option>
+            <option value="summer splash y cherry fuse">summer splash 🍍🥭🌴 y cherry fuse 🍒🧊</option>
+            <option value="summer splash y raspberry orange">summer splash 🍍🥭🌴 y raspberry orange🍓🍊</option>
+            <option value="summer splash y mango magic">summer splash 🍍🥭🌴 y mango magic🥭🌴✨</option>
+            <option value="summer splash y cherry strazz">summer splash  🍍🥭🌴y cherry strazz🍒🍓</option>
+            <option value="summer splash y sour strawberry dragonfruit">summer splash 🍍🥭🌴 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="summer splash y watermelon ice">summer splash 🍍🥭🌴 y watermelon ice🍉🧊</option>
+            <option value="summer splash y scary berry">summer splash 🍍🥭🌴 y scary berry🍓🧊</option>
+            <option value="summer splash y grape ice">summer splash  🍍🥭🌴y grape ice🍇🧊</option>
+            <option value="summer splash y blue raze ice">summer splash  🍍🥭🌴y blue raze ice​🧊​🧊</option>
+            <option value="sour lush gummys y summer splash">sour lush gummys 🍭🍬👀 y summer splash 🍍🥭🌴</option>
+            <option value="sour lush gummys y sour lush gummys">sour lush gummys 🍭🍬👀 y sour lush gummys 🍭🍬👀</option>
+            <option value="sour lush gummys y cherry fuse">sour lush gummys 🍭🍬👀y cherry fuse🍒🧊</option>
+            <option value="sour lush gummys y raspberry orange">sour lush gummys 🍭🍬👀 y raspberry orange🍓🍊</option>
+            <option value="sour lush gummys y mango magic">sour lush gummys 🍭🍬👀y mango magic🥭🌴✨</option>
+            <option value="sour lush gummys y cherry strazz">sour lush gummys  🍭🍬👀y cherry strazz🍒🍓</option>
+            <option value="sour lush gummys y sour strawberry dragonfruit">sour lush gummys 🍭🍬👀 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="sour lush gummys y watermelon ice">sour lush gummys 🍭🍬👀 y watermelon ice🍉🧊</option>
+            <option value="sour lush gummys y scary berry">sour lush gummys 🍭🍬👀 y scary berry🍓🧊</option>
+            <option value="sour lush gummys y grape ice">sour lush gummys  🍭🍬👀y grape ice🍇🧊</option>
+            <option value="sour lush gummys y blue raze ice">sour lush gummys 🍭🍬👀 y blue raze ice​🧊​🧊</option>
+             <option value="cherry fuse y summer splash">cherry fuse🍒🧊 y summer splash 🍍🥭🌴</option>
+             <option value="cherry fuse y sour lush gummys">cherry fuse 🍒🧊y sour lush gummys 🍭🍬👀</option>
+             <option value="cherry fuse y cherry fuse">cherry fuse🍒🧊 y cherry fuse🍒🧊</option>
+             <option value="cherry fuse y raspberry orange">cherry fuse 🍒🧊y raspberry orange🍓🍊</option>
+             <option value="cherry fuse y mango magic">cherry fuse🍒🧊 y mango magic🥭🌴✨</option>
+             <option value="cherry fuse y cherry strazz">cherry fuse 🍒🧊y cherry strazz🍒🍓</option>
+             <option value="cherry fuse y sour strawberry dragonfruit">cherry fuse 🍒🧊y sour strawberry dragonfruit🍓🐉</option>
+             <option value="cherry fuse y watermelon ice">cherry fuse🍒🧊 y watermelon ice🍉🧊</option>
+             <option value="cherry fuse y scary berry">cherry fuse 🍒🧊y scary berry🍓🧊</option>
+             <option value="cherry fuse y grape ice">cherry fuse🍒🧊 y grape ice🍇🧊</option>
+             <option value="cherry fuse y blue raze ice">cherry fuse🍒🧊 y blue raze ice​🧊​🧊</option>
+            <option value="raspberry orange y raspberry orange">raspberry orange🍓🍊 y raspberry orange🍓🍊</option>
+            <option value="raspberry orange y summer splash">raspberry orange🍓🍊 y summer splash 🍍🥭🌴</option>
+            <option value="raspberry orange y sour lush gummys">raspberry orange🍓🍊 y sour lush gummys 🍭🍬👀</option>
+            <option value="raspberry orange y cherry fuse">raspberry orange 🍓🍊y cherry fuse🍒🧊</option>
+            <option value="raspberry orange y mango magic">raspberry orange🍓🍊 y mango magic🥭🌴✨</option>
+            <option value="raspberry orange y cherry strazz">raspberry orange🍓🍊 y cherry strazz🍒🍓</option>
+            <option value="raspberry orange y sour strawberry dragonfruit">raspberry orange🍓🍊 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="raspberry orange y watermelon ice">raspberry orange🍓🍊y watermelon ice🍉🧊</option>
+            <option value="raspberry orange y scary berry">raspberry orange 🍓🍊y scary berry🍓🧊</option>
+            <option value="raspberry orange y grape ice">raspberry orange 🍓🍊y grape ice🍇🧊</option>
+            <option value="raspberry orange y blue raze ice">raspberry orange 🍓🍊y blue raze ice​🧊​🧊</option>
+            <option value="mango magic y mango magic">mango magic 🥭🌴✨y mango magic🥭🌴✨</option>
+            <option value="mango magic y summer splash">mango magic🥭🌴✨ y summer splash 🍍🥭🌴</option>
+            <option value="mango magic y sour lush gummys">mango magic🥭🌴✨ y sour lush gummys 🍭🍬👀</option>
+            <option value="mango magic y cherry fuse">mango magic🥭🌴✨ y cherry fuse🍒🧊</option>
+            <option value="mango magic y raspberry orange">mango magic🥭🌴✨ y raspberry orange🍓🍊</option>
+            <option value="mango magic y cherry strazz">mango magic🥭🌴✨ y cherry strazz🍒🍓</option>
+            <option value="mango magic y sour strawberry dragonfruit">mango magic🥭🌴✨ y sour strawberry dragonfruit🍓🐉</option>
+            <option value="mango magic y watermelon ice">mango magic🥭🌴✨ y watermelon ice🍉🧊</option>
+            <option value="smango magic y scary berry">mango magic 🥭🌴✨y scary berry🍓🧊</option>
+            <option value="mango magic y grape ice">mango magic🥭🌴✨ y grape ice🍇🧊</option>
+            <option value="mango magic y blue raze ice">mango magic 🥭🌴✨y blue raze ice​🧊​🧊</option>
+            <option value="cherry strazz y cherry strazz">cherry strazz🍒🍓 y cherry strazz🍒🍓</option>
+            <option value="cherry strazz y summer splash">cherry strazz 🍒🍓y summer splash 🍍🥭🌴</option>
+            <option value="cherry strazz y sour lush gummys">cherry strazz 🍒🍓y sour lush gummys 🍭🍬👀</option>
+            <option value="cherry strazz y cherry fuse">cherry strazz🍒🍓 y cherry fuse🍒🧊</option>
+            <option value="cherry strazz y raspberry orange">cherry strazz🍒🍓 y raspberry orange🍓🍊</option>
+            <option value="cherry strazz y mango magic">cherry strazz 🍒🍓y mango magic🥭🌴✨</option>
+            <option value="cherry strazz y sour strawberry dragonfruit">cherry strazz🍒🍓 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="cherry strazz y watermelon ice">cherry strazz 🍒🍓y watermelon ice🍉🧊</option>
+            <option value="cherry strazz y scary berry">cherry strazz 🍒🍓y scary berry🍓🧊</option>
+            <option value="cherry strazz y grape ice">cherry strazz🍒🍓 y grape ice🍇🧊</option>
+            <option value="cherry strazz y blue raze ice">cherry strazz🍒🍓 y blue raze ice​🧊​🧊</option>
+            <option value="sour strawberry dragonfruit y sour strawberry dragonfruit">sour strawberry dragonfruit🍓🐉 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="sour strawberry dragonfruit y summer splash">sour strawberry dragonfruit🍓🐉 y summer splash 🍍🥭🌴</option>
+            <option value="sour strawberry dragonfruit y sour lush gummys">sour strawberry dragonfruit 🍓🐉y sour lush gummys 🍭🍬👀</option>
+            <option value="sour strawberry dragonfruit y cherry fuse">sour strawberry dragonfruit🍓🐉 y cherry fuse🍒🧊</option>
+            <option value="sour strawberry dragonfruit y raspberry orange">sour strawberry dragonfruit🍓🐉 y raspberry orange🍓🍊</option>
+            <option value="sour strawberry dragonfruit y mango magic">sour strawberry dragonfruit🍓🐉 y mango magic🥭🌴✨</option>
+            <option value="sour strawberry dragonfruit y cherry strazz">sour strawberry dragonfruit 🍓🐉y cherry strazz🍒🍓</option>
+            <option value="sour strawberry dragonfruit y watermelon ice">sour strawberry dragonfruit🍓🐉y watermelon ice🍉🧊</option>
+            <option value="sour strawberry dragonfruit y scary berry">sour strawberry dragonfruit🍓🐉 y scary berry🍓🧊</option>
+            <option value="sour strawberry dragonfruit y grape ice">sour strawberry dragonfruit🍓🐉 y grape ice🍇🧊</option>
+            <option value="sour strawberry dragonfruit y blue raze ice">sour strawberry dragonfruit🍓🐉 y blue raze ice​🧊​🧊</option>
+            <option value="watermelon ice y watermelon ice">watermelon ice🍉🧊 y watermelon ice🍉🧊</option>
+            <option value="watermelon ice y summer splash">watermelon ice 🍉🧊y summer splash 🍍🥭🌴</option>
+            <option value="watermelon ice y sour lush gummys">watermelon ice 🍉🧊y sour lush gummys 🍭🍬👀</option>
+            <option value="watermelon ice y cherry fuse">watermelon ice🍉🧊 y cherry fuse🍒🧊</option>
+            <option value="watermelon ice y raspberry orange">watermelon ice 🍉🧊y raspberry orange🍓🍊</option>
+            <option value="watermelon ice y mango magic">watermelon ice🍉🧊 y mango magic🥭🌴✨</option>
+            <option value="watermelon ice y cherry strazz">watermelon ice🍉🧊 y cherry strazz🍒🍓</option>
+            <option value="watermelon ice y sour strawberry dragonfruit">watermelon ice🍉🧊 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="watermelon ice y scary berry">watermelon ice🍉🧊 y scary berry🍓🧊</option>
+            <option value="watermelon ice y grape ice">watermelon ice🍉🧊y grape ice🍇🧊</option>
+            <option value="watermelon ice y blue raze ice">watermelon ice🍉🧊 y blue raze ice​🧊​🧊</option>
+            <option value="scary berry y scary berry">scary berry🍓🧊 y scary berry🍓🧊</option>
+            <option value="scary berry y summer splash">scary berry 🍓🧊y summer splash 🍍🥭🌴</option>
+            <option value="scary berry y sour lush gummys">scary berry 🍓🧊y sour lush gummys 🍭🍬👀</option>
+            <option value="scary berry y cherry fuse">scary berry 🍓🧊y cherry fuse🍒🧊</option>
+            <option value="scary berry y raspberry orange">scary berry 🍓🧊y raspberry orange🍓🍊</option>
+            <option value="scary berry y mango magic">scary berry 🍓🧊y mango magic🥭🌴✨</option>
+            <option value="scary berry y cherry strazz">scary berry🍓🧊 y cherry strazz🍒🍓</option>
+            <option value="scary berry y sour strawberry dragonfruit">scary berry🍓🧊 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="scary berry y watermelon ice">scary berry🍓🧊 y watermelon ice🍉🧊</option>
+            <option value="scary berry y grape ice">scary berry 🍓🧊y grape ice🍇🧊</option>
+            <option value="scary berry y blue raze ice">scary berry 🍓🧊y blue raze ice​🧊​🧊</option>
+            <option value="grape ice y grape ice">grape ice🍇🧊 y grape ice🍇🧊</option>
+            <option value="grape ice y summer splash">grape ice🍇🧊 y summer splash 🍍🥭🌴</option>
+            <option value="grape ice y sour lush gummys">grape ice🍇🧊 y sour lush gummys 🍭🍬👀</option>
+            <option value="grape ice y cherry fuse">grape ice🍇🧊y cherry fuse🍒🧊</option>
+            <option value="grape ice y raspberry orange">grape ice 🍇🧊y raspberry orange🍓🍊</option>
+            <option value="grape ice y mango magic">grape ice🍇🧊 y mango magic🥭🌴✨</option>
+            <option value="grape ice y cherry strazz">grape ice🍇🧊 y cherry strazz🍒🍓</option>
+            <option value="grape ice y sour strawberry dragonfruit">grape ice🍇🧊 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="grape ice y watermelon ice">grape ice 🍇🧊y watermelon ice🍉🧊</option>
+            <option value="grape ice y scary berry">grape ice🍇🧊 y scary berry🍓🧊</option>
+            <option value="grape ice y blue raze ice">grape ice🍇🧊 y blue raze ice​🧊​🧊</option>
+            <option value="blue raze ice y blue raze ice">blue raze ice​🧊​🧊 y blue raze ice​🧊​🧊</option>
+            <option value="blue raze ice y summer splash">blue raze ice ​🧊​🧊y summer splash 🍍🥭🌴</option>
+            <option value="blue raze ice y sour lush gummys">blue raze ice​🧊​🧊 y sour lush gummys 🍭🍬👀</option>
+            <option value="blue raze ice y cherry fuse">blue raze ice ​🧊​🧊y cherry fuse🍒🧊</option>
+            <option value="blue raze ice y raspberry orange">blue raze ice​🧊​🧊 y raspberry orange🍓🍊</option>
+            <option value="blue raze ice y mango magic">blue raze ice​🧊​🧊 y mango magic🥭🌴✨</option>
+            <option value="blue raze ice y cherry strazz">blue raze ice​🧊​🧊 y cherry strazz🍒🍓</option>
+            <option value="blue raze ice y sour strawberry dragonfruit">blue raze ice​🧊​🧊 y sour strawberry dragonfruit🍓🐉</option>
+            <option value="blue raze ice y watermelon ice">blue raze ice​🧊​🧊 y watermelon ice🍉🧊</option>
+            <option value="blue raze ice y scary berry">blue raze ice​🧊​🧊 y scary berry🍓🧊</option>
+            <option value="blue raze ice y grape ice">blue raze ice​🧊​🧊 y grape ice🍇🧊</option>
+
+            
+
+
+        </select>
+    </div>
+    <button class="agregar" data-nombre="Promo Elfbar ice king 40k" data-precio="48000" data-tipo="vaper">Agregar al carrito</button>
+</div>
+    </section>
+
+
+    <div class="carrito">
+        <h2>Pedido</h2>
+        <ul id="listaCarrito"></ul>
+        <p><strong>Total:</strong> $<span id="total">0</span></p>
+        <button onclick="enviarPorWhatsApp()">Realizar Pedido</button>
+    </div>
+
+<section id ="entrega">
+    <h2>Como entregamos?</h2>
+<p>Realizamos puntos de entrega.</p>
+<p>Estos son nuestros puntos de entrega.</p>
+    <a href="https://maps.app.goo.gl/1RfwUNiQhLmWkZkC6"><i class="fa-solid fa-location-dot"></i> Plaza 12 de octubre</a><br><br>
+    <a href="http://maps.app.goo.gl/MiXoyPXMpZ5sqNMM9"><i class="fa-solid fa-location-dot"></i> Paseo Champagnat</a>
+</section>
+
+    <section id="pagos">
+   <h1 style="color: #003366;">Medios de pago</h1>
+
+        <ul>
+            <li><i class="fa-solid fa-money-bill"></i> Efectivo</li>
+    <li><i class="fa-solid fa-wallet"></i> Transferencia bancaria</li>
+        </ul>
+    </section>
+
+      <section id ="somos">
+        <h3 style="text-decoration: underline;">Quien soy?</h3>
+        <p>Mi nombre es Maxi Insua y soy dueño de Vaps, me encargo de brindar los mejores productos para ustedes,espero que sigan confiando.</p>
+    </section>
+
+    <section id="contacto">
+        <div class="texto-contacto">
+        <h1 style="color: #003366;">Contacto</h1>
+        <p>Si tenes alguna duda, no dudes en contactarnos.</p>
+        </div>
+        <div class="links-contacto">
+        <a href="https://wa.me/3364106761"><i class="fa-brands fa-whatsapp"></i> Maxi</a>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        &copy; tc.program 2025. Todos los derechos reservados.<br> @tc.program
+    </footer>
+
+    <script src="script.js"></script>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+    <button id="botonCarritoFlotante" onclick="irAlCarrito()">🛒 Ver carrito ($0)</button>
+
+
+
+    </body>
+    </html>
